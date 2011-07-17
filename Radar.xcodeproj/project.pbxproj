@@ -60,6 +60,14 @@
 		B5A09AC613D28FA90074900C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A09AC413D28FA90074900C /* DetailViewController.xib */; };
 		B5A09BC613D345A40074900C /* Detail2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A09BC413D345A40074900C /* Detail2ViewController.m */; };
 		B5A09BC713D345A40074900C /* Detail2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A09BC513D345A40074900C /* Detail2ViewController.xib */; };
+		B5A09C4013D37B810074900C /* BackgroundPatternFullv3.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A09C3B13D37B810074900C /* BackgroundPatternFullv3.png */; };
+		B5A09C4113D37B810074900C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A09C3C13D37B810074900C /* Default.png */; };
+		B5A09C4213D37B810074900C /* NavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A09C3D13D37B810074900C /* NavBar.png */; };
+		B5A09C4313D37B810074900C /* RadarLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A09C3E13D37B810074900C /* RadarLogo.png */; };
+		B5A09C4413D37B810074900C /* stretchable.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A09C3F13D37B810074900C /* stretchable.png */; };
+		B5A09C4813D37BF40074900C /* LoginWithFacebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A09C4713D37BF40074900C /* LoginWithFacebook.png */; };
+		B5A09C4C13D37C7D0074900C /* buttonAsset.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A09C4B13D37C7D0074900C /* buttonAsset.png */; };
+		B5A09C6113D382320074900C /* HomeScreenIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A09C6013D382320074900C /* HomeScreenIcon2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -327,6 +335,14 @@
 		B5A09BC313D345A40074900C /* Detail2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail2ViewController.h; sourceTree = "<group>"; };
 		B5A09BC413D345A40074900C /* Detail2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail2ViewController.m; sourceTree = "<group>"; };
 		B5A09BC513D345A40074900C /* Detail2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Detail2ViewController.xib; path = Classes/Detail2ViewController.xib; sourceTree = "<group>"; };
+		B5A09C3B13D37B810074900C /* BackgroundPatternFullv3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundPatternFullv3.png; sourceTree = "<group>"; };
+		B5A09C3C13D37B810074900C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B5A09C3D13D37B810074900C /* NavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBar.png; sourceTree = "<group>"; };
+		B5A09C3E13D37B810074900C /* RadarLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RadarLogo.png; sourceTree = "<group>"; };
+		B5A09C3F13D37B810074900C /* stretchable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stretchable.png; sourceTree = "<group>"; };
+		B5A09C4713D37BF40074900C /* LoginWithFacebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginWithFacebook.png; sourceTree = "<group>"; };
+		B5A09C4B13D37C7D0074900C /* buttonAsset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonAsset.png; sourceTree = "<group>"; };
+		B5A09C6013D382320074900C /* HomeScreenIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreenIcon2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -406,6 +422,14 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B5A09C6013D382320074900C /* HomeScreenIcon2.png */,
+				B5A09C3B13D37B810074900C /* BackgroundPatternFullv3.png */,
+				B5A09C4B13D37C7D0074900C /* buttonAsset.png */,
+				B5A09C4713D37BF40074900C /* LoginWithFacebook.png */,
+				B5A09C3C13D37B810074900C /* Default.png */,
+				B5A09C3D13D37B810074900C /* NavBar.png */,
+				B5A09C3E13D37B810074900C /* RadarLogo.png */,
+				B5A09C3F13D37B810074900C /* stretchable.png */,
 				B5A09AC413D28FA90074900C /* DetailViewController.xib */,
 				B5A09BC513D345A40074900C /* Detail2ViewController.xib */,
 				320B6C86F11D9990244A9730 /* Three20.bundle */,
@@ -855,6 +879,14 @@
 				B5A0995B13D228DC0074900C /* LocationViewController.xib in Resources */,
 				B5A09AC613D28FA90074900C /* DetailViewController.xib in Resources */,
 				B5A09BC713D345A40074900C /* Detail2ViewController.xib in Resources */,
+				B5A09C4013D37B810074900C /* BackgroundPatternFullv3.png in Resources */,
+				B5A09C4113D37B810074900C /* Default.png in Resources */,
+				B5A09C4213D37B810074900C /* NavBar.png in Resources */,
+				B5A09C4313D37B810074900C /* RadarLogo.png in Resources */,
+				B5A09C4413D37B810074900C /* stretchable.png in Resources */,
+				B5A09C4813D37BF40074900C /* LoginWithFacebook.png in Resources */,
+				B5A09C4C13D37C7D0074900C /* buttonAsset.png in Resources */,
+				B5A09C6113D382320074900C /* HomeScreenIcon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
