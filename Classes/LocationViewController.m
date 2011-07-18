@@ -70,9 +70,12 @@
     // e.g. self.myOutlet = nil;
 }
 
+static int runCount = 0;
+
 #pragma mark -
 #pragma mark Location stuff
 - (IBAction) getCurrentLocation {
+	runCount = 0;
 	if (nil == locationManager) {
         locationManager = [[CLLocationManager alloc] init];
         
@@ -88,6 +91,8 @@
     didUpdateToLocation:(CLLocation *)newLocation
 		   fromLocation:(CLLocation *)oldLocation {
 
+	if (++runCount > 1) return;
+	
 	self.lastSeenLocation = newLocation;
 	[locationManager stopUpdatingLocation];
 	
